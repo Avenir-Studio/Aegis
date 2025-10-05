@@ -1,2 +1,31 @@
-# Aegis
-An AI anti-cheating tool designed for algorithm competitions. It detects AI-generated code by analyzing style, structure, and patterns, ensuring fairness and authenticity in contests like Codeforces.
+Aegis 是由 Avenir Studio 开发的一款转为算法竞赛设计的 AI 反作弊工具。
+
+借助~~最落后的~~人工智能技术，它可以通过分析代码风格与结构来检测由 AI 生成的代码，从而确保竞赛的公平与真实性。
+
+## 🔧使用方法
+
+1. 将代码克隆至本地
+2. 从 `Release` 中下载最新的模型
+3. 运行下列命令对代码段进行嵌入，您也可以阅读相关代码获取 API 调用方式
+   ```bash
+  python ...
+   ```
+
+## 📢数据征集说明
+
+为了提升 Aegis 的检测准确率，我们迫切需要更多真实的代码数据。\
+在确保用户隐私与安全的前提下，我们诚挚邀请各大在线评测系统的管理员贡献部分匿名化的用户提交代码。
+
+这些数据将**仅用于研究与模型训练**，并作为测试基准来评估检测系统的性能，帮助我们更好地区分 AI 生成的代码与人类编写的代码，从而进一步保障算法竞赛的公平与公正。\
+如果您愿意提供支持，请与我们联系，非常感谢您的帮助！
+
+## 🙏鸣谢
+
+我们衷心感谢以下群体和个人对 Aegis 项目的大力支持：
+
+- [岱陌存理](https://dtoj.team/)及其管理[🐑一只羊](没link)：贡献了宝贵的匿名化代码数据
+- ~~我自己：不知道为什么但是感谢一下~~
+
+## 不特别说明
+
+由于技术尚不完善，暂不公布相关训练源码与数据集。
